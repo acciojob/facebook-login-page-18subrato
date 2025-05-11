@@ -11,17 +11,17 @@ body {
       height: 100vh;
     }
 
-    .left-panel {
+    .left-img {
       margin-right: 60px;
     }
 
-    .left-panel h1 {
+    .left-img h1 {
       color: #1877f2;
       font-size: 60px;
       margin-bottom: 10px;
     }
 
-    .left-panel p {
+    .left-img p {
       font-size: 24px;
       color: #1c1e21;
       width: 400px;

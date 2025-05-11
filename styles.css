@@ -1,1 +1,95 @@
-/*  your css code here. If applicable */
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .left-panel {
+      margin-right: 60px;
+    }
+
+    .left-panel h1 {
+      color: #1877f2;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .left-panel p {
+      font-size: 24px;
+      color: #1c1e21;
+      width: 400px;
+    }
+
+    .login-box {
+      background-color: #fff;
+      padding: 20px;
+      width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 17px;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background-color: #1877f2;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box button:hover {
+      background-color: #165eab;
+    }
+
+    .login-box .link {
+      text-align: center;
+      display: block;
+      margin-top: 12px;
+      color: #1877f2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #dadde1;
+      margin: 20px 0;
+    }
+
+    .create-btn {
+      background-color: #42b72a;
+      color: white;
+      padding: 12px;
+      font-size: 17px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: fit-content;
+      margin: auto;
+      display: block;
+    }
+
+    .create-btn:hover {
+      background-color: #36a420;
+    }
